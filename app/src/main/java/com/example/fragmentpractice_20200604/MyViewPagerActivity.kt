@@ -6,7 +6,7 @@ import kotlinx.android.synthetic.main.activity_my_view_pager.*
 
 class MyViewPagerActivity : BaseActivity() {
 
-    lateinit var myPagerAdapter = MyPagerAdapter
+    lateinit var myPagerAdapter : MyPagerAdapter
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)

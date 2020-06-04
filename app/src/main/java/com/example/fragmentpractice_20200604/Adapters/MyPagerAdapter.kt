@@ -20,7 +20,7 @@ class MyPagerAdapter(fm: FragmentManager) : FragmentPagerAdapter(fm) {
     }
 
     override fun getCount(): Int {
-    return 0
+    return 3 //총 페이지 숫자
     }
 
 
