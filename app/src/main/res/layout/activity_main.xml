@@ -6,4 +6,26 @@
     android:orientation="vertical"
     tools:context=".MainActivity">
 
+
+    <fragment
+        class="com.example.fragmentpractice_20200604.fragments.FirstFragment"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:tag="첫번째 프래그먼트" />
+
+    <fragment
+        class="com.example.fragmentpractice_20200604.fragments.SecondFragment"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="4"
+        android:tag="두번째 프래그먼트" />
+
+    <fragment
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:tag="firstFragmentTag"
+        class="com.example.fragmentpractice_20200604.fragments.FirstFragment"/>
+
+
 </LinearLayout>
